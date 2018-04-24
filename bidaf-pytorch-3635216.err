@@ -1,0 +1,22 @@
+/home/pyuvraj/CCPP/allennlp/squad/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+/home/pyuvraj/CCPP/allennlp/squad/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+  """)
+Traceback (most recent call last):
+  File "/cm/shared/apps/python/3.6.1/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/cm/shared/apps/python/3.6.1/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/pyuvraj/CCPP/allennlp/allennlp/run.py", line 24, in <module>
+    main(prog="python -m allennlp.run")
+  File "/home/pyuvraj/CCPP/allennlp/allennlp/commands/__init__.py", line 63, in main
+    args.func(args)
+  File "/home/pyuvraj/CCPP/allennlp/allennlp/commands/train.py", line 99, in train_model_from_args
+    args.recover)
+  File "/home/pyuvraj/CCPP/allennlp/allennlp/commands/train.py", line 128, in train_model_from_file
+    params = Params.from_file(parameter_filename, overrides)
+  File "/home/pyuvraj/CCPP/allennlp/allennlp/common/params.py", line 283, in from_file
+    params_file = cached_path(params_file)
+  File "/home/pyuvraj/CCPP/allennlp/allennlp/common/file_utils.py", line 76, in cached_path
+    raise FileNotFoundError("file {} not found".format(url_or_filename))
+FileNotFoundError: file training_config/bidaf.json not found
