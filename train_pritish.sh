@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#BATCH --mem=60000
+#BATCH --mem=100000
 #SBATCH --job-name=1-gpu-bidaf-pytorch
 #SBATCH --partition=m40-long
 #SBATCH --output=bidaf-pytorch-%A.out
@@ -22,7 +22,8 @@ module load cuda80/toolkit/8.0.44
 cd ..
 
 # Training (Default - on SQuAD)
-python -m allennlp.run train training_config/bidaf10.json -s output_path_pritish
+python -m allennlp.run train training_config/bidaf10.json -s output_path_pritish_2
+
 
 # Evaluation (Default - on SQuAD)
 #python -m allennlp.run evaluate https://s3-us-west-2.amazonaws.com/allennlp/models/bidaf-model-2017.09.15-charpad.tar.gz --evaluation-data-file https://s3-us-west-2.amazonaws.com/allennlp/datasets/squad/squad-dev-v1.1.json
