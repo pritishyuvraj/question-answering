@@ -213,3 +213,4 @@ NUMBER OF INSTANCES:
 2018-04-24 13:14:36,328 - INFO - allennlp.training.trainer - GPU 2 memory usage MB: 21209
 2018-04-24 13:14:36,328 - INFO - allennlp.training.trainer - GPU 3 memory usage MB: 21209
 2018-04-24 13:14:36,329 - INFO - allennlp.training.trainer - Training
+2018-04-24 13:59:50,527 - INFO - allennlp.training.trainer - Validating
