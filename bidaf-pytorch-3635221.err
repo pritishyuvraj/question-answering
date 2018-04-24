@@ -58,3 +58,4 @@
   File "/home/pyuvraj/CCPP/allennlp/allennlp/common/file_utils.py", line 76, in cached_path
     raise FileNotFoundError("file {} not found".format(url_or_filename))
 FileNotFoundError: file /home/usaxena/work/s18/696/allennlp/data/newsqa/train_dump.json not found
+slurmstepd: error: *** JOB 3635221 ON node007 CANCELLED AT 2018-04-24T12:06:34 ***
