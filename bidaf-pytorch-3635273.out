@@ -1,0 +1,25 @@
+2018-04-24 13:09:47,205 - INFO - allennlp.common.params - dataset_reader.type = squad
+2018-04-24 13:09:47,205 - INFO - allennlp.common.params - dataset_reader.tokenizer.type = word
+2018-04-24 13:09:47,206 - INFO - allennlp.common.params - dataset_reader.tokenizer.word_splitter.type = spacy
+2018-04-24 13:09:47,206 - INFO - allennlp.common.params - dataset_reader.tokenizer.word_splitter.language = en_core_web_sm
+2018-04-24 13:09:47,206 - INFO - allennlp.common.params - dataset_reader.tokenizer.word_splitter.pos_tags = False
+2018-04-24 13:09:47,206 - INFO - allennlp.common.params - dataset_reader.tokenizer.word_splitter.parse = False
+2018-04-24 13:09:47,206 - INFO - allennlp.common.params - dataset_reader.tokenizer.word_splitter.ner = False
+2018-04-24 13:09:48,029 - INFO - allennlp.common.params - dataset_reader.tokenizer.word_filter.type = pass_through
+2018-04-24 13:09:48,029 - INFO - allennlp.common.params - dataset_reader.tokenizer.word_stemmer.type = pass_through
+2018-04-24 13:09:48,029 - INFO - allennlp.common.params - dataset_reader.tokenizer.start_tokens = None
+2018-04-24 13:09:48,029 - INFO - allennlp.common.params - dataset_reader.tokenizer.end_tokens = None
+2018-04-24 13:09:48,029 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.type = single_id
+2018-04-24 13:09:48,029 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.namespace = tokens
+2018-04-24 13:09:48,030 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.lowercase_tokens = True
+2018-04-24 13:09:48,030 - INFO - allennlp.common.params - dataset_reader.token_indexers.token_characters.type = characters
+2018-04-24 13:09:48,030 - INFO - allennlp.common.params - dataset_reader.token_indexers.token_characters.namespace = token_characters
+2018-04-24 13:09:48,030 - INFO - allennlp.common.params - dataset_reader.token_indexers.token_characters.character_tokenizer.byte_encoding = utf-8
+2018-04-24 13:09:48,030 - INFO - allennlp.common.params - dataset_reader.token_indexers.token_characters.character_tokenizer.lowercase_characters = False
+2018-04-24 13:09:48,030 - INFO - allennlp.common.params - dataset_reader.token_indexers.token_characters.character_tokenizer.start_tokens = [259]
+2018-04-24 13:09:48,030 - INFO - allennlp.common.params - dataset_reader.token_indexers.token_characters.character_tokenizer.end_tokens = [260]
+2018-04-24 13:09:48,030 - INFO - allennlp.common.params - dataset_reader.lazy = False
+2018-04-24 13:09:48,031 - INFO - allennlp.common.params - validation_dataset_reader = None
+2018-04-24 13:09:48,031 - INFO - allennlp.common.params - train_data_path = https://s3-us-west-2.amazonaws.com/allennlp/datasets/squad/squad-train-v1.1.json
+2018-04-24 13:09:48,031 - INFO - allennlp.commands.train - Reading training data from https://s3-us-west-2.amazonaws.com/allennlp/datasets/squad/squad-train-v1.1.json
+2018-04-24 13:09:48,445 - INFO - allennlp.common.file_utils - https://s3-us-west-2.amazonaws.com/allennlp/datasets/squad/squad-train-v1.1.json not found in cache, downloading to /tmp/tmpkj5xwhxy

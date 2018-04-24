@@ -1,0 +1,59 @@
+/home/pyuvraj/CCPP/allennlp/squad/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+/home/pyuvraj/CCPP/allennlp/squad/lib/python3.6/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+  """)
+2018-04-24 13:09:47,195 - INFO - allennlp.common.params - random_seed = 13370
+2018-04-24 13:09:47,196 - INFO - allennlp.common.params - numpy_seed = 1337
+2018-04-24 13:09:47,196 - INFO - allennlp.common.params - pytorch_seed = 133
+2018-04-24 13:09:47,201 - INFO - allennlp.common.checks - Pytorch version: 0.3.1
+2018-04-24 13:09:47,205 - INFO - allennlp.common.params - dataset_reader.type = squad
+2018-04-24 13:09:47,205 - INFO - allennlp.common.params - dataset_reader.tokenizer.type = word
+2018-04-24 13:09:47,206 - INFO - allennlp.common.params - dataset_reader.tokenizer.word_splitter.type = spacy
+2018-04-24 13:09:47,206 - INFO - allennlp.common.params - dataset_reader.tokenizer.word_splitter.language = en_core_web_sm
+2018-04-24 13:09:47,206 - INFO - allennlp.common.params - dataset_reader.tokenizer.word_splitter.pos_tags = False
+2018-04-24 13:09:47,206 - INFO - allennlp.common.params - dataset_reader.tokenizer.word_splitter.parse = False
+2018-04-24 13:09:47,206 - INFO - allennlp.common.params - dataset_reader.tokenizer.word_splitter.ner = False
+2018-04-24 13:09:48,029 - INFO - allennlp.common.params - dataset_reader.tokenizer.word_filter.type = pass_through
+2018-04-24 13:09:48,029 - INFO - allennlp.common.params - dataset_reader.tokenizer.word_stemmer.type = pass_through
+2018-04-24 13:09:48,029 - INFO - allennlp.common.params - dataset_reader.tokenizer.start_tokens = None
+2018-04-24 13:09:48,029 - INFO - allennlp.common.params - dataset_reader.tokenizer.end_tokens = None
+2018-04-24 13:09:48,029 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.type = single_id
+2018-04-24 13:09:48,029 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.namespace = tokens
+2018-04-24 13:09:48,030 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.lowercase_tokens = True
+2018-04-24 13:09:48,030 - INFO - allennlp.common.params - dataset_reader.token_indexers.token_characters.type = characters
+2018-04-24 13:09:48,030 - INFO - allennlp.common.params - dataset_reader.token_indexers.token_characters.namespace = token_characters
+2018-04-24 13:09:48,030 - INFO - allennlp.common.params - dataset_reader.token_indexers.token_characters.character_tokenizer.byte_encoding = utf-8
+2018-04-24 13:09:48,030 - INFO - allennlp.common.params - dataset_reader.token_indexers.token_characters.character_tokenizer.lowercase_characters = False
+2018-04-24 13:09:48,030 - INFO - allennlp.common.params - dataset_reader.token_indexers.token_characters.character_tokenizer.start_tokens = [259]
+2018-04-24 13:09:48,030 - INFO - allennlp.common.params - dataset_reader.token_indexers.token_characters.character_tokenizer.end_tokens = [260]
+2018-04-24 13:09:48,030 - INFO - allennlp.common.params - dataset_reader.lazy = False
+2018-04-24 13:09:48,031 - INFO - allennlp.common.params - validation_dataset_reader = None
+2018-04-24 13:09:48,031 - INFO - allennlp.common.params - train_data_path = https://s3-us-west-2.amazonaws.com/allennlp/datasets/squad/squad-train-v1.1.json
+2018-04-24 13:09:48,031 - INFO - allennlp.commands.train - Reading training data from https://s3-us-west-2.amazonaws.com/allennlp/datasets/squad/squad-train-v1.1.json
+0it [00:00, ?it/s]2018-04-24 13:09:48,445 - INFO - allennlp.common.file_utils - https://s3-us-west-2.amazonaws.com/allennlp/datasets/squad/squad-train-v1.1.json not found in cache, downloading to /tmp/tmpkj5xwhxy
+
+  0%|          | 0/30288272 [00:00<?, ?B/s][A
+  0%|          | 17408/30288272 [00:00<04:33, 110641.52B/s][A
+  0%|          | 86016/30288272 [00:00<03:32, 142439.65B/s][A
+  1%|          | 156672/30288272 [00:00<02:48, 178881.25B/s][A
+  1%|          | 261120/30288272 [00:00<02:11, 228901.23B/s][A
+  1%|1         | 417792/30288272 [00:00<01:38, 304021.85B/s][A
+  2%|1         | 522240/30288272 [00:00<01:18, 378868.47B/s][A
+  3%|2         | 783360/30288272 [00:01<00:59, 492640.32B/s][A
+  4%|3         | 1148928/30288272 [00:01<00:44, 657769.75B/s][A
+  5%|4         | 1392640/30288272 [00:01<00:34, 827786.24B/s][A
+  6%|6         | 1932288/30288272 [00:01<00:25, 1095113.46B/s][A
+  7%|7         | 2188288/30288272 [00:01<00:23, 1210727.01B/s][A
+  8%|7         | 2415616/30288272 [00:01<00:20, 1355802.94B/s][A
+  9%|8         | 2631680/30288272 [00:01<00:18, 1474887.15B/s][A
+ 10%|9         | 2889728/30288272 [00:01<00:16, 1633722.44B/s][A
+ 11%|#         | 3272704/30288272 [00:02<00:14, 1915814.91B/s][A
+ 12%|#1        | 3568640/30288272 [00:02<00:12, 2057044.83B/s][A
+ 13%|#3        | 3969024/30288272 [00:02<00:11, 2324242.07B/s][A
+ 14%|#4        | 4264960/30288272 [00:02<00:10, 2375892.39B/s][A
+ 16%|#5        | 4699136/30288272 [00:02<00:09, 2651621.34B/s][A
+ 16%|#6        | 4996096/30288272 [00:02<00:09, 2607496.75B/s][A
+ 18%|#7        | 5448704/30288272 [00:02<00:08, 2870000.60B/s][A
+ 19%|#9        | 5762048/30288272 [00:02<00:08, 2801954.52B/s][A
+ 21%|##        | 6214656/30288272 [00:02<00:07, 3037558.68B/s][A
+ 22%|##1       | 6545408/30288272 [00:03<00:08, 2962454.21B/s][A
