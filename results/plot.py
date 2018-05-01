@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 class plot_diagrams:
 	def __init__(self, fileName):
 		self.fileName = fileName
-		# self.extract_write_to_csv('f1', self.fileName)
-		self.plot_diagrams_from_csv("f1_score.csv")
+		# self.extract_write_to_csv('em', self.fileName)
+		self.plot_diagrams_from_csv("em.csv")
 
 	def plot_diagrams_from_csv(self, fileName):
 		read_file = open(fileName, 'r').read().split('\n')
@@ -18,7 +18,7 @@ class plot_diagrams:
 			y_axis.append(float(line[1]))
 			x_axis.append(float(index))
 		plt.plot(y_axis)
-		plt.ylabel('F1 Score')
+		plt.ylabel('Exact Match')
 		plt.xlabel('iterations')
 		plt.show()
 
@@ -51,7 +51,7 @@ class plot_diagrams:
 					value = self.extract_num(line[index+1])
 					text = str(self.extract_alpha(line[index])) + ", " + str(value) + "\n"
 					print "Text is ->", text
-					self.append_to_file("f1_score.csv", text)
+					self.append_to_file("em.csv", text)
 			except:
 				print sys.exc_info()
 
